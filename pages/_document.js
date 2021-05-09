@@ -12,7 +12,7 @@ class MyDocument extends Document {
       <Html>
         <Head />
         <body className="bg-gray-200 w-full lg:h-screen md:h-screen sm:h-full">  
-          <Navbar/>   
+          {/* <Navbar/>    */}
           <Main />
           <NextScript />
         </body>
