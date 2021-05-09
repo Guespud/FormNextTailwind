@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Breadcrumb = () => {
   return (
-    <nav className="text-black font-sans m-3" aria-label="Breadcrumb">
+    <nav className="text-black font-sans m-2" aria-label="Breadcrumb">
       <ol className="list-none p-0 inline-flex">
         <li className="flex items-center">
           <Link href="/">

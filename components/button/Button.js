@@ -1,16 +1,22 @@
-import React from 'react'
+import React from "react";
 
-const Button = ({title,img,type}) => {
+const Button = ({ title, img, type }) => {
+  let small =
+    "px-5 py-2 flex justify-center items-center bg-white  rounded-xl text-black m-2 focus:outline-none font-semibold shadow hover:transition-colors hover:bg-gradient-to-tr transform transition hover:scale-110 ease-out duration-300 hover:shadow-md";
 
-    let small = "text-center m-2 bg-gray-100 w-52 h-8 rounded-xl text-black font-medium";
+  let medium =
+    "px-4 py-4 flex justify-center items-center bg-white rounded text-black focus:outline-none font-semibold shadow hover:transition-colors hover:bg-gradient-to-tr transform transition hover:scale-110 ease-out duration-300 hover:shadow-md";
 
-    let medium = "bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-12 border border-gray-400 rounded shadow"
-
-    return (
-        <div>
-            <button className={type ? small : medium }><img src={img} />{title}</button>
+  return (
+    <div>
+      <button className={type ? small : medium}>
+        <div class="mr-2">
+          <img src={img} />
         </div>
-    )
-}
+        {title}
+      </button>
+    </div>
+  );
+};
 
-export default Button
+export default Button;
