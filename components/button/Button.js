@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({ title, img, type }) => {
   let small =
-    "px-5 py-2 flex justify-center items-center bg-white  rounded-xl text-black m-2 focus:outline-none font-semibold shadow hover:transition-colors hover:bg-gradient-to-tr transform transition hover:scale-110 ease-out duration-300 hover:shadow-md";
+    "text-sm px-5 py-2 flex justify-center items-center bg-white  rounded-xl text-black m-2 focus:outline-none font-semibold shadow hover:transition-colors hover:bg-gradient-to-tr transform transition hover:scale-110 ease-out duration-300 hover:shadow-md";
 
   let medium =
     "px-4 py-4 flex justify-center items-center bg-white rounded text-black focus:outline-none font-semibold shadow hover:transition-colors hover:bg-gradient-to-tr transform transition hover:scale-110 ease-out duration-300 hover:shadow-md";
