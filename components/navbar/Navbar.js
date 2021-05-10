@@ -45,7 +45,7 @@ const Navbar = () => {
             active ? "" : "hidden"
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
-          <div className="flex items-center sm:px-1 px-5">
+          <div className="flex items-center ml-8 sm:px-1 px-5">
             <HiSearch className="text-white" />
             <input
               className="bg-transparent text-white"
@@ -55,13 +55,13 @@ const Navbar = () => {
           </div>
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto ">
             <Link href="/">
-              <a className="flex sm:flex-row lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans items-center justify-center hover:bg-gray-600 hover:text-white ">
+              <a className="flex sm:flex-row lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans lg:items-center xl:items-center xl:justify-center lg:justify-center hover:bg-gray-600 hover:text-white ">
                 <img className="px-1" src="images/gear.svg" alt="Gear Logo" />
                 &nbsp;Administración
               </a>
             </Link>
             <Link href="/">
-              <a className="flex sm:flex-row lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans items-center justify-center hover:bg-gray-600 hover:text-white">
+              <a className="flex sm:flex-row lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans lg:items-center xl:items-center xl:justify-center lg:justify-center hover:bg-gray-600 hover:text-white">
                 <img className="px-1" src="images/bag.svg" alt="Bag Logo" />
                 &nbsp;Empleo&nbsp;
                 <img
@@ -72,13 +72,13 @@ const Navbar = () => {
               </a>
             </Link>
             <Link href="/">
-              <a className="flex sm:flex-row  lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans items-center justify-center hover:bg-gray-600 hover:text-white">
+              <a className="flex sm:flex-row  lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans lg:items-center xl:items-center xl:justify-center lg:justify-center hover:bg-gray-600 hover:text-white">
                 <img className="px-1" src="images/cv.svg" alt="CV Logo" />
                 &nbsp;Mi CV
               </a>
             </Link>
             <Link href="/">
-              <a className="flex sm:flex-row  lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans items-center justify-center hover:bg-gray-600 hover:text-white">
+              <a className="flex sm:flex-row  lg:inline-flex lg:w-auto w-full sm:px-5 px-12 py-2 rounded text-white text-sm font-sans lg:items-center xl:items-center xl:justify-center lg:justify-center hover:bg-gray-600 hover:text-white">
                 <img
                   className="px-1"
                   src="images/circleUser.svg"
