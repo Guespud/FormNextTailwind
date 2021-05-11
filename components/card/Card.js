@@ -15,7 +15,7 @@ const Card = ({ title, reloj, image }) => {
             <hr></hr>
           </div>
           <div className="flex flex-row w-full rounded-lg h-10 dark:bg-gray-700 bg-white">
-            <img className="-mt-7 ml-3" src="images/reloj.svg" />
+            <img className="-mt-6 ml-3" src="images/reloj.svg" />
             &nbsp;
             <p className="text-gray-500 text-xs font-sans">{reloj}</p>
           </div>

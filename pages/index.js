@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Navbar />
       <section>
-        <div className="lg:m-6 xl:px-48 lg:px-24 md:px-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 justify-items-center">
+        <div className="mb-12 lg:m-6 xl:px-48 lg:px-24 md:px-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 justify-items-center">
           <div className="m-1">
             <Link href="Administrador">
               <a>

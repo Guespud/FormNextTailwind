@@ -29,14 +29,14 @@ const form = () => {
 
   return (
     <div>
-      <h2 className="font-sans text-xl text-center font-bold m-6">
+      <h2 className="font-sans text-lg text-center font-extrabold m-6">
         DOCUMENTOS CARGADOS
       </h2>
       {Datos.map((data, i) => {
         return (
           <div className="grid grid-cols-3" key={i}>
             <div className="m-6 grid col-span-2">
-              <h1 className="font-sans sm:text-sm md:text-lg xl:text-lg lg:text-lg font-medium">{data.name}</h1>
+              <h1 className="font-sans text-sm md:text-lg lg:text-lg  font-medium">{data.name}</h1>
             </div>
             <div className="m-2 grid col-span-1 text-right">
               <a href={data.url} target="_blank">

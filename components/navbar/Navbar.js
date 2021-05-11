@@ -86,7 +86,7 @@ const Navbar = () => {
                 />
                 &nbsp;Daniel&nbsp;
                 <img
-                  className="px-1"
+                  className="px-1 "
                   src="images/downArrow.svg"
                   alt="arrow Logo"
                 />

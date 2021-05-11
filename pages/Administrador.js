@@ -65,12 +65,12 @@ const Administrador = () => {
             <Button
               title="Aprobar Empresa"
               img="images/check.svg"
-              type="small"
+              type="mobile"
             />
             <Button
               title="Rechazar Empresa"
               img="images/cancel.svg"
-              type="small"
+              type="mobile"
             />
           </div>
           <div className="justify-center items-center pb-4 pt-2 order-first md:order-last">
